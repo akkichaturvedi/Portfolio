@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Edu+VIC+WA+NT+Beginner&family=Pacifico&display=swap");
+
+.logo {
+  font-family: cursive;
+  cursor: pointer;
+  font-size: 45px;
+  color: rgb(58, 60, 62);
+}
+.navBar {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  opacity: 0.85;
+  top: 0;
+  left: 0;
+  background: linear-gradient(20deg, skyblue, yellowgreen, skyblue);
+  box-shadow: 5px 0px 20px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.lists {
+  width: 45%;
+}
+.lists ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.lists ul li {
+  text-decoration: none;
+  color: azure;
+  font-size: 22px;
+  cursor: pointer;
+}
+.lists ul li:hover {
+  transition: 1s;
+  border-bottom: 2px solid tomato;
+}
+.links li {
+  color: black;
+}
+.links li:hover {
+  transition: 1s;
+  /* transform: scale(1.2); */
+  color: blue;
+}

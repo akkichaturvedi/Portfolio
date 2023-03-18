@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+.title{
+  transition: 2s;
+  color: red;
+  font: 800;
+  font-size: 55px;
+  font-family: "Shadows Into Light", cursive;
+}
+.page {
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 50px gray, inset -2px -2px 50px gainsboro;
+  transition: 1.5s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(20deg , skyblue ,lightgray , rgb(165, 133, 73), lightgray ,skyblue);
+  height: 70vh;
+  width: 70vw;
+}
+.page:hover {
+  background-color: bisque;
+  opacity: 0.5;
+  box-shadow: inset 2px 2px 50px black, inset -2px -2px 50px black;
+}
+.page div {
+  text-align: center;
+  position: fixed;
+  color: white;
+  right: 35%;
+  bottom: 37%;
+}
+.page div {
+  animation: animate 5s infinite;
+}
+@keyframes animate {
+  0% {
+    font-size: 25px;
+    transform-style: preserve-3d;
+    scale: 1;
+    opacity: 0.5;
+  }
+  15% {
+    font-size: 25px;
+    transform-style: preserve-3d;
+    scale: 1;
+    opacity: 0.8;
+  }
+  20% {
+    font-size: 25px;
+    transform-style: preserve-3d;
+    scale: 1;
+    opacity: 0.9;
+  }
+  25% {
+    font-size: 50px;
+    transform-style: preserve-3d;
+    scale: 2;
+    opacity: 1;
+  }
+  50% {
+    font-style: italic;
+    font-size: 35px;
+    transform-style: preserve-3d;
+    scale: 1.5;
+    opacity: 1;
+  }
+  100% {
+    font-size: 25px;
+    transform-style: preserve-3d;
+    font-style: italic;
+    scale: 1;
+    opacity: 0;
+  }
+}
+.cut{
+  position: absolute;
+  right: 12%;
+  top: 15%;
+  font-size: 30px;
+}
